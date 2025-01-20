@@ -1,30 +1,52 @@
 
-ForoAlura
+ForoHub Alura
+
+
 es una API REST desarrollada en Java con Spring Boot que replica el backend del foro de Alura Latam. Este proyecto permite la interacción entre estudiantes, profesores y moderadores mediante la creación, gestión y consulta de publicaciones.
 
 📋 Características
+
 Publicaciones
+
 Crear nuevas publicaciones.
+
 Consultar todas las publicaciones o una específica.
+
 Actualizar y eliminar publicaciones.
+
 Usuarios
+
 Registro de usuarios.
+
 Inicio y cierre de sesión.
+
 Cambio de contraseña.
+
 Gestión de roles (estudiante, profesor, moderador).
+
 Seguridad
+
 Autenticación y autorización con JSON Web Tokens (JWT).
+
 Implementación de Refresh Tokens.
+
 Autorización basada en roles y métodos.
+
 Etiquetas y Categorías
+
 Gestión de categorías y subcategorías para organizar las publicaciones.
 
 
 🛠️ Tecnologías
+
 Lenguaje: Java 17
+
 Framework: Spring Boot
+
 Seguridad: Spring Security 6, JWT
+
 Base de Datos: MySQL
+
 Gestión de dependencias: Maven
 
 
