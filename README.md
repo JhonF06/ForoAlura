@@ -83,28 +83,44 @@ La API estará disponible en: http://localhost:8080
 📚 Endpoints Principales
 
 Autenticación
+
 POST /auth/register: Registro de usuario.
+
 POST /auth/login: Inicio de sesión.
+
 POST /auth/logout: Cierre de sesión.
+
 POST /auth/refresh-token: Generar nuevo token.
 
 Publicaciones
 
+
 POST /publicaciones: Crear una publicación.
+
 GET /publicaciones: Listar todas las publicaciones.
+
 GET /publicaciones/{id}: Consultar una publicación específica.
+
 PUT /publicaciones/{id}: Actualizar una publicación.
+
 DELETE /publicaciones/{id}: Eliminar una publicación.
 
 Usuarios
 
 GET /usuarios: Listar todos los usuarios.
+
 PUT /usuarios/{id}/cambiar-contraseña: Cambiar contraseña.
+
 PUT /usuarios/{id}/asignar-rol: Asignar rol a un usuario.
+
 Categorías y Subcategorías
+
 POST /categorias: Crear una categoría.
+
 GET /categorias: Listar todas las categorías.
+
 POST /subcategorias: Crear una subcategoría.
+
 GET /subcategorias: Listar todas las subcategorías.
 
 🤝 Contribuciones
